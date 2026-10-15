@@ -1,0 +1,19 @@
+Part A: f(x) = x^2 + 3 sin^2 x
+  min |f'|^2 / (2 f) on [-10,10]   (PL constant mu)   = 0.1755
+  min |phi'(x)| on [-10,10]        (submersion check) = 0.2963
+  start   GD-iters   GN-on-phi-iters
+   -7.3         12          4
+   -2.1          7          3
+    0.9          3          3
+    3.3          9          3
+    8.8         13          6
+
+Part B: n=20, k=5, eps=0.3  (median over 5 random starts)
+  kappa   GD-iters   GN-iters
+      1         12          3
+      3         46          4
+     10        136          3
+     30        214          4
+    100        303          4
+
+saved pl_gd_vs_gn.png
